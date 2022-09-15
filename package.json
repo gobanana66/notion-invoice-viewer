@@ -1,13 +1,13 @@
 {
-  "name": "notion-youtube-schedule",
+  "name": "notion-invoice-viewer",
   "version": "1.0.0",
-  "description": "This is part of a YouTube tutorial using the Notion API to fetch scheduled YouTube invoices from notion and display in a webpage",
+  "description": "Using the Notion API to display a web interface of Invoices and select one to display and then print to PDF",
   "main": "index.js",
   "scripts": {
     "start": "node index"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["notion","invoice"],
+  "author": "Anna Klibanov",
   "license": "ISC",
   "dependencies": {
     "@notionhq/client": "^0.1.3",
